@@ -1,6 +1,7 @@
+
 <div align="center">
 
-# 🚀 Talent-IQ  
+# 🚀 Talent-IQ
 ### Real-Time Coding Interview Platform
 
 A full-stack real-time coding interview platform with live video calls, collaborative coding, real-time chat, and automated code evaluation — all in one system.
@@ -9,11 +10,11 @@ A full-stack real-time coding interview platform with live video calls, collabor
 
 ---
 
-## Platform Preview
+## 🎬 Platform Demo
 
-<p align="center">
-  <img src="homepage.png" alt="Talent-IQ Homepage" width="900"/>
-</p>
+<!-- Replace with your uploaded GitHub video URL -->
+
+[https://github.com/user-attachments/assets/YOUR-VIDEO-ID](https://github.com/user-attachments/assets/61d1df09-3a8a-4a2d-a7c7-a100a0c45af1)
 
 ---
 
@@ -37,8 +38,8 @@ A full-stack real-time coding interview platform with live video calls, collabor
 ## 🏗 Tech Stack
 
 ### Frontend
-- Next.js
-- React
+- React.js
+- Vite
 - Tailwind CSS
 - TanStack Query
 - Monaco Editor
@@ -57,17 +58,21 @@ A full-stack real-time coding interview platform with live video calls, collabor
 
 ## 🧠 System Architecture
 
-
-Client (Next.js)
-->
-REST API (Express.js)
-->
-MongoDB Database
-->
-Real-Time Layer (Stream)
-->
-Background Jobs (Inngest)
-
+```text
+             Client (React + Vite)
+                     |
+                     v
+             REST API (Express.js)
+                     |
+                     v
+              MongoDB Database
+                     |
+                     v
+          Real-Time Layer (Stream)
+                     |
+                     v
+           Background Jobs (Inngest)
+```
 
 ---
 
@@ -90,7 +95,7 @@ Background Jobs (Inngest)
 - Real-time coding environment
 
 ### ⚙️ Secure Code Execution
-- Code runs in isolated environment
+- Code runs in an isolated environment
 - Automatic test case validation
 - Instant pass/fail feedback
 
@@ -113,28 +118,62 @@ Background Jobs (Inngest)
 ```bash
 git clone https://github.com/your-username/talent-iq.git
 cd talent-iq
-2️⃣ Backend Setup
+```
+
+### 2️⃣ Backend Setup
+
+```bash
 cd backend
 npm install
 npm run dev
+```
 
-Create a .env file inside backend:
+Create a `.env` file inside the backend directory:
 
+```env
 PORT=5000
 MONGO_URI=your_mongodb_uri
 CLERK_SECRET_KEY=your_clerk_secret
 STREAM_API_KEY=your_stream_key
 STREAM_SECRET=your_stream_secret
 INNGEST_SIGNING_KEY=your_inngest_key
-3️⃣ Frontend Setup
+```
+
+### 3️⃣ Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run dev
-📦 Deployment
+```
 
-Frontend/Backend  → Vercel
+---
 
+## 📦 Deployment
 
-Database → MongoDB Atlas
+| Service | Platform |
+|---|---|
+| Frontend | Render |
+| Backend | Render |
+| Database | MongoDB Atlas |
+| Video & Chat | Stream |
+| Authentication | Clerk |
+| Background Jobs | Inngest |
 
+---
 
+## 👨‍💻 Author
+
+**Akshay Anand**
+
+- GitHub: [Akshay4754](https://github.com/Akshay4754)
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, consider giving it a star!
+
+Built with ❤️ by Akshay Anand
+
+</div>
